@@ -25,11 +25,11 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '16.20.2'
+          node-version: '18'
 
       - run: npm install
 
-      - run: npm run build
+      - run: node --openssl-legacy-provider ./node_modules/.bin/nwb build-react-component
 
       - uses: actions/configure-pages@v4
 
