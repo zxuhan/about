@@ -12,7 +12,7 @@ module.exports = {
   webpack: {
     html: {
       template: 'demo/src/index.html',
-      favicon: 'demo/src/favicon.png',
+      favicon: 'demo/src/favicon.ico',
     }
   }
 }
