@@ -31,6 +31,8 @@ jobs:
 
       - run: node --openssl-legacy-provider ./node_modules/.bin/nwb build-react-component
 
+      - run: cp resume.pdf ./demo/dist/resume.pdf
+
       - uses: actions/configure-pages@v4
 
       - uses: actions/upload-pages-artifact@v3

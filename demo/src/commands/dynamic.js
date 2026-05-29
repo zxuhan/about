@@ -99,7 +99,7 @@ export default {
       return new Promise((resolve) => {
         print({ type: 'success', label: 'Success', content: 'Opening' })
 
-        window.open('https://simonaking.com/blog/resume', '_blank')
+        window.open('resume.pdf', '_blank')
         resolve({ type: 'success', label: 'Done', content: ':)' })
       })
     }
